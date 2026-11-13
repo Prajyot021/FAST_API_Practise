@@ -1,0 +1,39 @@
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment variables & AWS credentials/keys
+.env
+.env.*
+*.pem
+*.key
+.aws/
+
+# Local databases & logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Uncomment below if your ML model files are too large for GitHub (>100 MB)
+# *.pkl
+# *.joblib
+# *.h5
+# *.pt
